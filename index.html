@@ -7,6 +7,14 @@
   <title>Hurry Curry</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+<style>
+  .font-lemon{
+    font-family: 'Lemon', cursive;
+  }
+</style>
 </head>
 
 <body>
@@ -80,15 +88,15 @@
   <!-- main part -->
   <main>
     <!-- All Foods Part -->
-    <section class="container mt-8">
+    <section class="container mt-8 mx-auto">
       <h1 class="text-center text-4xl font-extrabold ">Best Of All Foods</h1>
       <div class="flex flex-col items-center justify-around lg:flex-row md:flex-row mt-3 lg:mt-4 md:mt-4 ">
-        <p class="lg:w-1/2 font-extralight ">Food is one of the great joys in life. It can be a source of comfort, a way to bond with friends and family,
+        <p class="lg:w-1/2 font-extralight px-2 mt-2 lg:mt-0 md:mt-0 lg:px-0 text-center lg:text-left">Food is one of the great joys in life. It can be a source of comfort, a way to bond with friends and family,
           or a simply a delicious way to fuel your body. Of course food can also be a great source of excitement.</p>
         <div class="flex flex-col items-center">
-          <span>offers closing in</span>
+          <span class="text-[#F85559] font-lemon mt-5 text-2xl ">offers closing in</span>
           <script src="clock.js"></script>
-          <div class="mt-10 lg:mt-0 ">
+          <div class="mt-5 lg:mt-0 ">
             <div class="text-5xl font-extrabold flex gap-x-5">
 
               <div class="flex flex-col justify-center items-center">
@@ -112,6 +120,102 @@
           </div>
         </div>
       </div>
+    </section>
+    <!-- food card -->
+    <section class="container mt-12 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-3 gap-y-4 px-3">
+
+          <!-- card 1 -->
+          <div class="card   shadow-xl image-full">
+            <figure><img src="images/rate-1.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Food 1</h2>
+              <p>Yummy Yummy in your tummy !!!</p>
+              <div class="rating gap-1 m-auto mb-3">
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" checked />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn btn-warning">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card   shadow-xl image-full">
+            <figure><img src="images/rate-2.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Food 2</h2>
+              <p>Yummy Yummy in your tummy !!!</p>
+              <div class="rating gap-1 m-auto mb-3">
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" checked />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn btn-warning">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card   shadow-xl image-full">
+            <figure><img src="images/rate-3.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Food 3</h2>
+              <p>Yummy Yummy in your tummy !!!</p>
+              <div class="rating gap-1 m-auto mb-3">
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" checked />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn btn-warning">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card   shadow-xl image-full">
+            <figure><img src="images/rate-4.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Food 4</h2>
+              <p>Yummy Yummy in your tummy !!!</p>
+              <div class="rating gap-1 m-auto mb-3">
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" checked />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-400" />
+              </div>
+              <div class="card-actions justify-center">
+                <button class="btn btn-warning">Order Now</button>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+    </section>
+    <!-- About Us -->
+    <section class="container mt-12 px-4 mx-auto">
+
+      <div class="hero min-h-screen  " style="background-image: url(images/about.jpg); border-radius: 8px; filter: brightness(.75);">
+        <div class=""></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-extrabold stroke-inherit  ">About Us</h1>
+            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-warning">Sign In</button>
+          </div>
+        </div>
+      </div>
+
     </section>
   </main>
 

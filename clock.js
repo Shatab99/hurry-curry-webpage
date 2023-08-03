@@ -1,4 +1,4 @@
-var countDownDate = new Date("aug 5, 2023 15:37:25").getTime();
+var countDownDate = new Date("aug 10, 2023 15:37:25").getTime();
 // var countDownDate = new Date(offer()).getTime();
 
 // Update the count down every 1 second
