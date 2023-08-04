@@ -230,8 +230,27 @@
     <!-- Book a table -->
     <section class="container mx-auto mt-12 px-20 ">
         <h1 class="text-center text-3xl font-extrabold mb-12" id="book-table">Book A Table</h1>
-
-      <div class="flex justify-between items-center bg-[#FEE2B3]  ">
+        <!-- for tablet and phone -->
+        <div class="lg:hidden brightness-75" >
+          <div class="hero min-h-screen" style="background-image: url(images/book-table.jpg);">
+            <div class=""></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <div class="space-y-5 flex flex-col  ">
+                  <h2 class="text-2xl font-kavoon text-black">Book Your Table Now !! </h2>
+                  <input type="text" placeholder="Enter Your User name " class="input input-bordered input-error w-full max-w-xs" />
+                  <input type="text" placeholder="Table No." class="input input-bordered input-error w-full max-w-xs" />
+                  <button class="btn btn-warning ">Let's Go</button>
+        
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- for windows -->
+      <div class="hidden lg:flex justify-between items-center bg-[#FEE2B3] ">
 
         <img src="images/book-table.jpg" alt="" class="w-2/5">
 
